@@ -1,4 +1,4 @@
-# BigProfile-test-tecnico
+# BigProfiles-test-tecnico
 API per l'ingestion di informazioni
 
 ### Introduzione
