@@ -16,7 +16,7 @@ Per eseguire l'applicazione è necessaria l'installazione dell'ultima versione d
 Affinchè le informazioni inviate all'endpoint di riferimento per la ricezione delle richieste GET siano salvate
 su un database MongoDB è necessario eseguire il seguente comando nel terminale:
 
-'''mongodb'''
+>mongodb
 
 Nel caso in cui si decida di modifcare la porta di default nella quale viene lanciato mongodb
 è necessario inserire la porta selezionata nel codice del file main.py nella cartella backend alla riga 29. 
@@ -25,13 +25,13 @@ Nel caso in cui si decida di modifcare la porta di default nella quale viene lan
 Per avviare l'ambiente virtuale nel quale verrà eseguito il codice si può digitare il seguente comando 
 nel terminale dopo aver selezionato il percorso in cui si trova la cartella bigprofiles.
 
-'''.\Scripts\activate'''
+>.\Scripts\activate
 
 4. Esecuzione dell'applicazione tramite il framework uvicorn
 Per eseguire l'applicazione si può digitare il seguente comando nel terminale, dopo aver
 selezionato la directory "backend" come current directory.
 
-'''uvicorn main:app'''
+>uvicorn main:app
 
 L'applicazione sarà a questo punto avviata. Il root endpoint di riferimento per l'invio delle richieste è
 "http://127.0.0.1:8000"
