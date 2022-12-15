@@ -34,7 +34,7 @@ selezionato la directory "backend" come current directory.
 >uvicorn main:app
 
 L'applicazione sarà a questo punto avviata. Il root endpoint di riferimento per l'invio delle richieste è
-"http://127.0.0.1:8000"
+http://127.0.0.1:8000
 
 ### Struttura del codice in main.py
 Il codice è suddiviso in 7 sezioni: import delle librerie, connessione e creazione del database mongodb,
